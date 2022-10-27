@@ -1,16 +1,17 @@
-# Bank
-Semester Project Bank
+# The Project Proposal
 
-## Intro
 
-In this project we designed a Bank to showcase our knowledge of programming
 
 ## Theme
-The theme is a Bank
+The theme is a Bank where we will create an App that allows users to create a Bank Account to deposit and withdraw money and to determine if the user is a customer or employee.
 
 
 ## Feature List
-Feature List will contain the following items:
+1. Create an Account
+- The user will create a Username and Password and an option that tells the user if they are a customer or employee.
+
+
+2. Deposit and Withdraw (For Customer)
 
 
 ## UML Diagram
