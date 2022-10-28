@@ -19,9 +19,18 @@ The theme is a Bank where we will create an App that allows users to create a Ba
 
 
 ## UML Diagram
-This is our UML Diagram for our Bank. In this diagram, the "Bank" is the  parent class and the rest are child classes.
+This is our UML Diagram for our Bank.
 
-<img width="867" alt="Screen Shot 2022-10-19 at 2 10 04 PM" src="https://user-images.githubusercontent.com/98849706/197585120-5a939965-3937-42bd-a7fc-d627a0c07992.png">
+![UML_Diagram_For_Bank](https://user-images.githubusercontent.com/98849706/198495092-5c3b1cac-7ef1-4ed7-bb63-a99fa33934bd.jpeg)
+
+
 
 
 ## User Interface Sketches
+This is what our app will look like:
+
+![User_Interface_Sketches](https://user-images.githubusercontent.com/98849706/198495587-247beaa4-a2de-4c34-9f21-c942e3be92a6.jpeg)
+
+
+
+
