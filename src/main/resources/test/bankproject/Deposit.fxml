@@ -32,12 +32,12 @@
                         <Font size="36.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="totalField" alignment="CENTER" layoutX="239.0" layoutY="193.0" promptText="Type Amount to Deposit">
+                  <TextField fx:id="myTextField" alignment="CENTER" layoutX="239.0" layoutY="193.0" promptText="Type Amount to Deposit">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </TextField>
-                  <Label layoutX="48.0" layoutY="84.0" text="Account Balance">
+                  <Label layoutX="48.0" layoutY="84.0" text="Money Added">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -47,12 +47,12 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Button layoutX="546.0" layoutY="359.0" mnemonicParsing="false" onAction="#ExitMenu"  text="Exit to Main Menu">
+                  <Button layoutX="546.0" layoutY="359.0" mnemonicParsing="false" onAction="#ExitMenu" text="Exit to Main Menu">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button layoutX="282.0" layoutY="268.0" mnemonicParsing="false" onAction="#depositAmount" text="Deposit Amount">
+                  <Button fx:id="myButton" layoutX="282.0" layoutY="268.0" mnemonicParsing="false" onAction="#depositAmount" text="Deposit Amount">
                      <font>
 
                         <Font size="24.0" />
@@ -63,8 +63,12 @@
                         <Font size="36.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="nameTextField" alignment="CENTER" editable="false" layoutX="53.0" layoutY="136.0" text="0" />
-                  <Label fx:id="nameLabel" layoutX="118.0" layoutY="230.0" text="z">
+                  <Label fx:id="myLabel" layoutX="118.0" layoutY="128.0" text="0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="101.0" layoutY="128.0" text="\$">
                      <font>
                         <Font size="24.0" />
                      </font>

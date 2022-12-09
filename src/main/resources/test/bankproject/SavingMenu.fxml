@@ -28,14 +28,9 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <ButtonBar layoutX="90.0" layoutY="238.0" nodeOrientation="RIGHT_TO_LEFT">
+                  <ButtonBar layoutX="196.0" layoutY="231.0" nodeOrientation="RIGHT_TO_LEFT">
                      <buttons>
                         <Button mnemonicParsing="false" onAction="#TransLog" text="Transaction Log">
-                           <font>
-                              <Font size="24.0" />
-                           </font>
-                        </Button>
-                        <Button mnemonicParsing="false" onAction="#withdraw" text="Withdraw">
                            <font>
                               <Font size="24.0" />
                            </font>

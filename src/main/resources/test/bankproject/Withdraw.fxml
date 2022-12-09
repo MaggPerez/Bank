@@ -27,22 +27,17 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <Label layoutX="308.0" layoutY="63.0" text="Withdraw">
+                  <Label layoutX="318.0" layoutY="79.0" text="Withdraw">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Label>
-                  <Label layoutX="95.0" layoutY="121.0" text="\$0">
-                     <font>
-                        <Font size="36.0" />
-                     </font>
-                  </Label>
-                  <TextField alignment="CENTER" layoutX="239.0" layoutY="193.0" promptText="Type Amount to Withdraw">
+                  <TextField fx:id="myTextField" alignment="CENTER" layoutX="239.0" layoutY="193.0" promptText="Type Amount to Withdraw">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </TextField>
-                  <Label layoutX="48.0" layoutY="84.0" text="Account Balance">
+                  <Label layoutX="584.0" layoutY="87.0" text="Money Removed">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -57,6 +52,42 @@
                         <Font size="24.0" />
                      </font>
                   </Button>
+                  <Button fx:id="myButton" layoutX="313.0" layoutY="272.0" mnemonicParsing="false" onAction="#withdrawAmount" text="Withdraw">
+                     <font>
+
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="76.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="myLabel" layoutX="118.0" layoutY="128.0" text="*****">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="101.0" layoutY="128.0" text="\$">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="84.0" layoutY="81.0" mnemonicParsing="false" onAction="#seeBalance" text="See Balance">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="myNextLabel" layoutX="644.0" layoutY="127.0" text="0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="609.0" layoutY="126.0" text="\$">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
         </items>

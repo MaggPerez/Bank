@@ -26,7 +26,7 @@
                <children>
                   <ButtonBar layoutX="184.0" layoutY="234.0" nodeOrientation="RIGHT_TO_LEFT">
                      <buttons>
-                        <Button mnemonicParsing="false" onAction="#MainMenu" text="Savings">
+                        <Button mnemonicParsing="false" onAction="#SavingMenu" text="Savings">
                            <font>
                               <Font size="36.0" />
                            </font>
