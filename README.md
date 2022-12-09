@@ -1,35 +1,39 @@
-# The Project Proposal
+# The Revised Project Proposal
 
 
 
 ## Theme
-The theme is a Bank where we will create an App that allows users to create a Bank Account to deposit and withdraw money and to determine if the user is a customer or employee.
+The theme is a Bank where we will create an App that allows users to create a Bank Account to deposit and withdraw money and to be able to see their transaction log
 
 
 ## Feature List
-1. Create an Account
-- The user will create a Username and Password and an option that tells the user if they are a customer or employee.
+1. The user will create a username and password from the beginning which will be stored. Once the user logs into the app. Their name will be displayed.
 
+2. There will be two accounts: Checking and Saving. The user will have the option to pick both account and either deposit or withdraw their money. 
 
-2. Main Menu (For Customer)
-- In the Customer's perspective, the app will display their _Username_, give options to _Deposit and Withdraw_ money, and _logout_ the App.
-
-3. Main Menu (For Employee)
-- In the Employee's perspective, the app will display their _Username_, _Deposit and Withdraw_, and _logout_ options.
-
+3. Once the user has done deposits or withdrawals, they will be able to see their transaction logs based on their activities.
 
 ## UML Diagram
-This is our UML Diagram for our Bank.
+This is our revised UML Diagram for our Bank.
 
-![UML_Diagram_For_Bank](https://user-images.githubusercontent.com/98849706/198495092-5c3b1cac-7ef1-4ed7-bb63-a99fa33934bd.jpeg)
-
-
+<img width="792" alt="Screenshot 2022-12-08 at 10 59 15 PM" src="https://user-images.githubusercontent.com/98849706/206621095-29e53ae5-db27-40ba-b3e4-d641bb80b523.png">
 
 
-## User Interface Sketches
-This is what our app will look like:
 
-![User_Interface_Sketches](https://user-images.githubusercontent.com/98849706/198495587-247beaa4-a2de-4c34-9f21-c942e3be92a6.jpeg)
+
+
+## Screenshots and a short video:
+This is our revised sketch of our App.
+
+<img width="147" alt="Screenshot 2022-12-08 at 11 30 53 PM" src="https://user-images.githubusercontent.com/98849706/206624428-d2ca7a21-d744-4bd6-adb3-0b33ff140a72.png">
+
+This is a link to a video on how it works live.
+https://drive.google.com/file/d/1mDFPsVa9FbejqI1xrlWB3-UCiaf77I8h/view
+
+
+
+
+
 
 
 
