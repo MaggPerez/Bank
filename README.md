@@ -32,7 +32,27 @@ https://drive.google.com/file/d/1mDFPsVa9FbejqI1xrlWB3-UCiaf77I8h/view
 
 
 
+## Issues and future work
+1. We sadly could not make the transaction log to work due to many bugs and errors that prevented the program to function.
+2. We couldn't display the username when the user logs into the program due to the program having issues with displaying values on the screen.
+3. We plan to restart from scratch and display the username, and do more research on how to implement the transaction log.
 
+
+## Self-Assessment of  Satisfying the Project Requirements:
+Classes used:
+1. We created a class called "DataSingleton.java" which helps to store data globally. With this class we were able to collect money from the user and save it. It also allowed us to display the user's amount through different Scenes created. Within the class we were able to implement methods to set deposit, set withdrawal, and get amount of the user's money.
+
+2. We created a Deposit.java class that helps to deposit money the user puts in.
+
+Sadly we didn't have enough time and couldn't implement these items:
+- Abstract class
+- Inheritance
+- Polymorphic call
+- ArrayList
+
+Within the JavaFX FXML GUI, most of our scenes and controllability was held in PrimaryController.java. This allowed us to create ActionEvent methods to click through scenes and perform the most important aspect of our bank which is depositing and withdrawing money and being able to display the balance.
+
+The controls that helped us tremendously were Textfield, Label, Button, and ActionEvent
 
 
 
